@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&family=Titillium+Web:wght@300;600&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.inicio{
+    background-image: url(globo.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: rgb(17, 16, 16);
+}
+.inicio .contenido-seccion{
+    max-width: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 45px;
+}
+
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #39489b;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    text-align:left;
+    z-index: 80;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display:block;
+    color: rgb(28, 30, 34);
+    text-decoration: none;
+    margin-bottom: 11px;
+    font-weight: bold;
+}
+.inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px rgb(230, 73, 73);
+}
+.inicio .contenido-seccion header .logo .color{
+    color: #b92f2f;
+    font-family: "Yellowtail";
+}
+.inicio .contenido-seccion header .nav-bar{
+    position:fixed;
+    background-color: #1a7c7c;
+    font-size: 40px;
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s ;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px rgb(116, 64, 64);
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+/*segunda parte */
+.Tareas{
+    background-image: url(imag1.jpeg) ;
+    padding: 0px 0 100px 0;
+}
+.imagenes{
+    background-image: url(imag1.jpeg);
+    background-size: cover;
+    background-position: center center;
+    color: rgb(17, 16, 16);
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.titulo-seccion{
+    text-align: center;
+    font-family: "Titillium Web";
+    color: rgb(31, 29, 29);
+    
+
+}
+
+.especial{
+    color: #1a2b75;
+}
+
+.Tareas .cont{
+    padding: 25px;
+
+}
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.imagenes figure {
+    text-align: center;
+    width: 20%; 
+    margin: 50px; 
+    position: relative; 
+}
+.imagenes img {
+    display: block; 
+}
+.imagenes figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 83%;
+    background-color: rgba(177, 192, 245, 0.7);
+    color: rgb(29, 29, 119);
+    padding: 3px;
+    box-sizing: border-box;
+    
+}
+
+.contacto{
+    background-color: #c2a1b4;
+    padding: 10px 0 10px 0;
+    color: rgb(56, 51, 112);
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 30px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #304a5c;
+}
+
+.btn-regresar{
+    border:0px solid;
+    border-radius: 5px;
+    background-color: rgba(73, 3, 70, 0.763);
+    color:white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.btn-regresar:hover{
+    background-color: rgba(73, 3, 70, 0.763);
+    color: #fcfcfc;
+    transition: ease-in .4s;}
+
+.btn-siguiente{
+    float: right;
+    border:0px solid;
+    border-radius: 10px;
+    background-color: rgb(192, 96, 96);
+    color:white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+     
+.btn-siguiente:hover{
+    background-color: rgba(71, 20, 43, 0.763);
+    color: #fcfcfc;
+    transition: ease-in .4s;
+}
+.botones{
+    padding: 10px;
+    background-color: #e6e6e6;
+}
